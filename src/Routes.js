@@ -5,10 +5,12 @@ import HomeScreen from './screens/Home';
 
 const { Navigator, Screen: StackScreen } = createNativeStackNavigator();
 
-export default Routes = () => (
+const Routes = () => (
   <NavigationContainer>
     <Navigator initialRouteName="Home">
       <StackScreen name="Home" component={HomeScreen} options={{ title: 'Overview' }} />
     </Navigator>
   </NavigationContainer>
 );
+
+export default Routes;
