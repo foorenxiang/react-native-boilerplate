@@ -5,9 +5,12 @@ import {
   PERSIST_KEY_REGISTERED_USERS,
   PERSIST_KEY_ACTIVE_PROFILE,
 } from './Constants';
-import { persistStore, loadStateFromStore, setStateAndStore } from './AsyncStorageHandler';
-
-// import {persistStore, persistLoad} from './UsePersistStorageHandler';
+import {
+  // persistClear,
+  persistStore,
+  loadStateFromStore,
+  setStateAndStore,
+} from './AsyncStorageHandler';
 
 const AppContext = createContext({});
 const { Provider } = AppContext;
