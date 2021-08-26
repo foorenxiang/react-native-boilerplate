@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ewaste",
-    "slug": "ewaste",
+    "name": "React Native Boilerplate",
+    "slug": "React Native Boilerplate",
     "entryPoint": "./src/App.js",
     "version": "1.0.0",
     "orientation": "portrait",
